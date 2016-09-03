@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -o wordament wordament.c puzzle.c parser.c printer.c box.c queue.c mergesort.c linkedlist.c hashmap.c hash.c -pthread -Wall -O0 -std=gnu99
